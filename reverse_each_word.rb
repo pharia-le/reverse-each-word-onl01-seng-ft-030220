@@ -13,13 +13,13 @@ def reverse_each_word(sentence)
   new_sentence.join(" ")
 end
 
-def reverse_each_word(sentence)
-  words = sentence.split(" ")
+# def reverse_each_word(sentence)
+#   words = sentence.split(" ")
   
-  new_sentence = words.collect do |word|
-    letters = word.split("")
-    new_word = letters.reverse
-    new_word.join
-  end
+#   new_sentence = words.collect do |word|
+#     letters = word.split("")
+#     new_word = letters.reverse
+#     new_word.join
+#   end
   
-end
+# end
